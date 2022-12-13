@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h3 class="bg-white">Hello World!</h3>
+    <h3 class="bg-white light-img">Hello World!</h3>
     <iconRaw />
   </div>
 </template>

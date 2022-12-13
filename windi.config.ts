@@ -117,8 +117,8 @@ const MyTheme = {
         center: true,
         maxWidth: "1360px",
         padding: {
-          DEFAULT: "1rem",
-          lg: "1rem",
+          "DEFAULT": "1rem",
+          "lg": "1rem",
           "2xl": "4rem",
         },
       },
