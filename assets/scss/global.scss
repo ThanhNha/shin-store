@@ -1,0 +1,87 @@
+// @import "components/button";
+@import "components/type";
+
+@layer base {
+  @font-face {
+    font-family: "OpenSans";
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    src: url("~assets/fonts/OpenSans-Light.ttf");
+  }
+
+  @font-face {
+    font-family: "OpenSans";
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    src: url("~assets/fonts/OpenSans-Medium.ttf");
+  }
+
+  @font-face {
+    font-family: "OpenSans";
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+    src: url("~assets/fonts/OpenSans-Italic.ttf");
+  }
+
+  @font-face {
+    font-family: "OpenSans";
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    src: url("~assets/fonts/OpenSans-SemiBold.ttf");
+  }
+
+  @font-face {
+    font-family: "OpenSans";
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url("~assets/fonts/OpenSans-Bold.ttf");
+  }
+
+  body {
+    @apply cursor-default overflow-x-hidden;
+  }
+
+  svg,
+  img {
+    @apply max-w-full max-h-full;
+  }
+
+  textarea {
+    @apply resize-none;
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+}
+
+@screen md {
+  .page-enter-active,
+  .page-leave-active {
+    transition: opacity 0.2s;
+  }
+  .page-enter,
+  .page-leave-to {
+    opacity: 0;
+  }
+
+  .layout-enter-active,
+  .layout-leave-active {
+    transition: opacity 0.2s;
+  }
+  .layout-enter,
+  .layout-leave-to {
+    opacity: 0;
+  }
+}

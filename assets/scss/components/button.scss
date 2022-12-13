@@ -1,0 +1,88 @@
+.btn {
+  // Button base
+  @apply inline-flex items-center no-underline cursor-pointer bg-transparent border border-transparent transition duration-150 ease-in-out rounded-full uppercase;
+  @media (prefers-reduced-motion: reduce) {
+    @apply transition-none;
+  }
+
+  &:hover {
+  }
+}
+
+.btn-primary {
+  @apply bg-main-orange-500 text-white;
+  &:hover {
+    @apply bg-main-orange-600;
+  }
+  &:focus {
+    @apply bg-main-orange-600;
+  }
+}
+
+.btn-white {
+  @apply bg-white text-gray-800;
+  &:hover {
+    @apply bg-main-orange-300 text-white;
+  }
+  &:focus {
+    @apply bg-main-orange-300 text-white;
+  }
+}
+
+.btn-primary-outline-white {
+  @apply bg-main-orange-500 text-white border border-white;
+  &:hover {
+    @apply bg-white text-main-orange-500 border-main-orange-500;
+  }
+  &:focus {
+    @apply bg-white text-main-orange-500 border-main-orange-500;
+  }
+}
+
+.btn-primary-disable {
+  @apply bg-main-gray-500 text-white;
+}
+
+.btn-outline-secondary {
+  @apply border-main-orange-500 text-main-orange-500;
+  &:hover {
+    @apply border-main-orange-600 text-main-orange-600;
+  }
+  &:focus {
+    @apply border-main-orange-600 text-main-orange-600;
+  }
+}
+
+.btn-outline-secondary-white {
+  @apply border-white text-white;
+  &:hover {
+    @apply border-white text-white;
+  }
+  &:focus {
+    @apply border-white text-white;
+  }
+}
+
+.btn-outline-secondary-disable {
+  @apply border-main-gray-600 text-main-gray-600;
+}
+
+.btn-primary-yellow {
+  @apply bg-[#FEDB2F] text-main-gray-900;
+  &:hover {
+    @apply bg-main-yellow-700 text-white;
+  }
+  &:focus {
+    @apply bg-main-yellow-700;
+  }
+}
+
+.btn-white-yellow {
+  @apply text-main-orange-500 bg-white;
+  &:hover {
+    @apply bg-main-orange-500 text-white;
+  }
+  &:focus {
+    @apply bg-main-orange-500 text-white;
+  }
+}

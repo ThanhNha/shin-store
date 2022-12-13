@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0",
+    "@nuxt/image-edge": "^1.0.0-27769790.4b27db3",
+    "nuxt-vite": "^0.3.5",
+    "nuxt-windicss": "^2.6.0",
+    "postcss-loader": "^7.0.2",
+    "sass": "^1.55.0",
+    "sass-loader": "10",
+    "postcss": "^8.4.20",
+    "vite-svg-loader": "^3.6.0"
+  }
+}
